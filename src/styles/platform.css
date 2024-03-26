@@ -1,0 +1,169 @@
+.pc , .atari-2600, .ios, .android {
+    display: flex;
+    flex-direction: row;
+    min-width: 50px;           
+    height: 25px;         
+    background: rgb(114, 110, 110);       
+    color: #ffffff;;
+    border: 1.5px solid #000000; /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    padding: 5px;
+    
+  }
+
+  .playstation1, .playstation2, .playstation3, .playstation4, .playstation5 {
+    display: flex;
+    flex-direction: row;
+    width: 50px;           
+    height: 25px;         
+    background: rgb(55, 19, 212);       
+    color: #ffffff;;
+    border: 1.5px solid rgb(55, 19, 212); /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    
+  }
+
+  .psp,.ps-vita{
+    display: flex;
+    flex-direction: row;
+    width: 50px;           
+    height: 25px;         
+    background: rgb(255, 255, 255);       
+    color: #000000;;
+    border: 1.5px solid rgb(0, 0, 0); /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    
+  }
+
+  .xbox-one, .xbox-series-x, .xbox-old, .xbox360 {
+    display: flex;
+    flex-direction: row;
+    width: 50px;           
+    height: 25px;         
+    background: #9bc848;       
+    color: #000000;;
+    border: 1.5px solid rgb(55, 19, 212); /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    
+  }
+
+.nes, .snes, .nintendo-switch {
+    display: flex;
+    flex-direction: row;
+    width: 50px;           
+    height: 25px;         
+    background: red;       
+    color:white;
+    border: 1.5px solid #ffffff; /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  .wii, .wii-u {
+    display: flex;
+    flex-direction: row;
+    width: 50px;           
+    height: 25px;         
+    background: rgb(255, 255, 255);       
+    color: #82dde0;;
+    border: 1.5px solid #82dde0; /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  .nintendo-3ds {
+    display: flex;
+    flex-direction: row;
+    width: 50px;           
+    height: 25px;         
+    background: rgb(255, 255, 255);       
+    color: #000000;;
+    border: 1.5px solid red; /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    font-size: inherit ;
+    font-weight: bold;
+    
+  }
+  .nintendo-ds, .nintendo-dsi {
+    display: flex;
+    flex-direction: row;
+    width: 50px;           
+    height: 25px;         
+    background: rgb(255, 255, 255);       
+    color: #000000;;
+    border: 1.5px solid rgb(126, 125, 125); /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  .game-boy-advance, .gamecube {
+    display: flex;
+    flex-direction: row;
+    width: 50px;           
+    height: 25px;         
+    background: #4d20c9;       
+    color: #ffffff;
+    border: 1.5px solid #a631cd; /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  .game-boy-color, .nintendo-64, .game-boy {
+    display: flex;
+    flex-direction: row;
+    width: 50px;           
+    height: 25px;         
+    background: #ffffff;       
+    color: #4d20c9;
+    border: 1.5px solid red; /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  .xbox {
+    display: flex;
+    flex-direction: row;
+    width: 50px;           
+    height: 25px;         
+    background: green;       
+    color:white;
+    border: 1.5px solid #ffffff; /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+    
+  }
+
+  .dreamcast{
+    display: flex;
+    flex-direction: row;
+    width: 50px;           
+    height: 25px;         
+    background: white;       
+    color:red;
+    border: 1.5px solid #000000; /* Borde color negro y de 1 píxel de grosor */
+    border-radius: 5px;
+    justify-content:center;
+    align-items:center;
+
+  }
+  
+  /* .plataform{
+    color:white
+    
+  } */
