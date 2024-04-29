@@ -1,0 +1,11 @@
+{
+"id": 1,
+  "name": "Carreras",
+  "slug": "carreras",
+  "parent": true,
+  "games_count": 0,
+  "image_background": "",
+  "importants_games": [],
+  "sub_genres":[],
+  "description": "<p></p>"
+}

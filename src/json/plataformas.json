@@ -1,0 +1,29 @@
+{
+"id": 1,
+  "name": "Nintendo Entertainment System",
+  "slug": "nes",
+  "img": "https://es.wikipedia.org/wiki/Nintendo_Entertainment_System#/media/Archivo:NES-Console-Set.png",
+  "lanzamiento":"15/07/1983" ,
+  "descripcion": "Nintendo Entertainment System (también conocida como Nintendo NES o simplemente NES),6​ llamada en Japón como Family Computer (también llamada en Japón como Famicom), es una videoconsola descontinuada de 8 bits perteneciente a la tercera generación en la industria de los videojuegos, la primera consola de sobremesa de Nintendo en emplear cartuchos. Fue lanzada por Nintendo en Norteamérica, Europa y Australia entre 1985 y 1987.Está considerada como la videoconsola más exitosa de su época10​n. 6​ y contribuyó a revitalizar de forma significativa la industria estadounidense de los videojuegos, la cual había sufrido previamente una debacle financiera en 1983 que ocasionó que varias empresas especializadas quebraran,11​ además de establecer el nivel estándar para consolas posteriores en aspectos primordiales como el diseño de cada juegon. 7​ y planteamiento de mandos.n. 8​ Asimismo, a partir de esta consola Nintendo estableció un modelo de negocios estandarizado en la era contemporánea y referente a la licencia de desarrollo de software a terceros.15​ Durante su producción, se desarrollaron numerosos videojuegos que dieron origen a famosas series de videojuegos. Entre ellos se incluyen: Super Mario Bros., The Legend of Zelda, Metroid, Mega Man, Final Fantasy, Metal Gear y Castlevania. Sus mayores rivales en el mercado fueron la Master System de Sega y la Atari 7800.",
+  "modelos": [
+	{
+		"nombre":"default", 
+		"slug":"default", 
+		"lanzamiento":"defalut",
+		"descripcion":"default",
+		"a_tec":{
+				"CPU":"Ricoh de 8 bits basado en MOS Technology 6502",
+				"Frecuencia CPU": "1,79 MHz",
+				"RAM": "2 KB",
+				"GPU": "5,37 MHz",
+				"Conexiones": [
+					{"nombre": "Puertos para control", "numero":2},
+					{"nombre": "Ranura de cartuchos de juego de 72 pines", "numero":1},
+					{"nombre": "Bahía de extensión", "numero":1},
+					{"nombre": "Salida de audio video monaural", "numero":1}, 
+					{"nombre": "Salida de video compuesto RF", "numero":1},   
+					{"nombre": "Entrada de corriente DC", "numero":1}
+				]
+			}
+	}]
+}

@@ -44,7 +44,7 @@
   .xbox-one, .xbox-series-x, .xbox-old, .xbox360 {
     display: flex;
     flex-direction: row;
-    width: 50px;           
+    width:fit-content;           
     height: 25px;         
     background: #9bc848;       
     color: #000000;;

@@ -11,7 +11,10 @@ export const RiGTheme = createTheme({
         },
         error:{
             main:'#EC4C4C'
-        }
+        },
+        white:{
+            main:'#FFFFFF'
+        },
     },
 
 })

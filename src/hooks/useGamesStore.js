@@ -1,6 +1,8 @@
 import { useDispatch } from "react-redux";
 import gamesApi from "../api/gamesApi";
 import { isLoading, setActiveGame, setActualPage, setGamesSearched, setPages, setTitleSearched } from "../store/games/gamesSlice";
+import { addRigDb } from "../helpers/addRigDb";
+import { transformGameData } from "../helpers/convertToDb/transformGameData";
 // import { filterMobile } from "../helpers/filterMobile";
 
 export const useGamesStore = () => {
@@ -69,7 +71,8 @@ export const useGamesStore = () => {
         dispatch ( isLoading() );
         try {
             const { data } = await gamesApi.get(`/games/${id}`);
-            console.log(data);
+            addRigDb(transformGameData(data))
+            // console.log(transformGameData(data));
             dispatch( setActiveGame( data ) )
             
         } catch (error) {

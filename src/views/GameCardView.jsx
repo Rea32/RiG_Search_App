@@ -91,9 +91,9 @@ export const GameCardView = ( { gameInfo } ) => {
             Plataformas:
             <Grid container spacing={7}>
               {
-                platforms.map( ({ platform }, index) => (
-                  <Grid  item xs={1} >
-                    <span key={ platform.id } className={platform.slug} style={{fontSize:"small"}} > { renamePlatformSlugs(platform) } </span>
+                platforms.map( ({ platform }) => (
+                  <Grid key={ platform.id }  item xs={1} >
+                    <span  className={platform.slug} style={{fontSize:"small"}} > { renamePlatformSlugs(platform) } </span>
                   </Grid>
                 ) )
               }

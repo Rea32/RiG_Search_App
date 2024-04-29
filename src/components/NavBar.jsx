@@ -25,7 +25,7 @@ export const NavBar = () => {
     
     dispatch(returnInitialState () )
     startSearchingGames(title);
-    
+
   }
 
   const handleClick = () => {
