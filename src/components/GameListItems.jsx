@@ -15,6 +15,7 @@ export const GameListItems = ({id, name, platforms, released}) => {
         startObtainGameDetails( id );
         
     }
+    
 
   return (
     <Link to={`/game/${id}`} style={{textDecoration:"none", color:"black"}}>

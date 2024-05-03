@@ -1,8 +1,11 @@
 import { useDispatch } from "react-redux";
 import gamesApi from "../api/gamesApi";
 import { isLoading, setActiveGame, setActualPage, setGamesSearched, setPages, setTitleSearched } from "../store/games/gamesSlice";
-import { addRigDb } from "../helpers/addRigDb";
-import { transformGameData } from "../helpers/convertToDb/transformGameData";
+
+import { transformGenreData } from "../helpers/convertToDb/transformGenreData";
+import { comprobeGameRigDb } from "../helpers/Api/comprobeGameRigDb";
+import { addRigDb } from "../helpers/Api/addRigDb";
+import { transformToRiGDB } from "../helpers/Api/transformToRiGDB";
 // import { filterMobile } from "../helpers/filterMobile";
 
 export const useGamesStore = () => {
@@ -70,9 +73,12 @@ export const useGamesStore = () => {
         
         dispatch ( isLoading() );
         try {
-            const { data } = await gamesApi.get(`/games/${id}`);
-            addRigDb(transformGameData(data))
-            // console.log(transformGameData(data));
+            const { data } = await gamesApi.get(`/games/${id}`); //Muestra 
+            
+            const exist = await comprobeGameRigDb(data.name);
+            if ( !exist ) transformToRiGDB(data);
+      
+            
             dispatch( setActiveGame( data ) )
             
         } catch (error) {
@@ -80,6 +86,7 @@ export const useGamesStore = () => {
             console.log(error);
         }
     };
+
 
     return{
         //*Propiedades

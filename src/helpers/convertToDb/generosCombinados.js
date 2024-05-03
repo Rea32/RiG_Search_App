@@ -1,8 +1,8 @@
 export const generosCombinados = ( nombresGeneros ) => {
 
-    if (nombresGeneros.includes("Action") && nombreGenero.includes("RPG")){
+    if (nombresGeneros.includes("Acción") && nombresGeneros.includes("RPG")){
         nombresGeneros.push("Action-RPG");
-        const newNombreGenero =  nombreGenero.filter( genero => genero != "Action" && genero != "RPG");
+        const newNombreGenero =  nombresGeneros.filter( genero => genero != "Acción" && genero != "RPG");
         return newNombreGenero;
     }
     return nombresGeneros;
